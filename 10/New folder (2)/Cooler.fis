@@ -1,0 +1,33 @@
+[System]
+Name='Cooler'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=3
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Error'
+Range=[-10 10]
+NumMFs=3
+MF1='Neg':'zmf',[-5 -0.5]
+MF2='Zero':'trimf',[-1 0 1]
+MF3='Pos':'smf',[0.5 5]
+
+[Output1]
+Name='UC'
+Range=[0 5]
+NumMFs=3
+MF1='Low':'zmf',[0.2083 2.4]
+MF2='medium':'trimf',[2 2.5 3]
+MF3='High':'smf',[2.7 4.792]
+
+[Rules]
+1, 3 (1) : 1
+2, 2 (1) : 1
+3, 1 (1) : 1
