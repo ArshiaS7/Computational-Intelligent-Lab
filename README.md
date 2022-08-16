@@ -12,8 +12,24 @@
 
 # Introduction
 <div align = "justify"> 
+Different Computational Intelligent Lab's Projects are listed below:
+<br><br>
+  
+#### 1. Introduction to Neural Network & One-Layer Network
+#### 2. MultiLayer Perceptron
+#### 3. HopField Networks
+#### 4. K-Mean Algorithm
+#### 5. System Identification Using Neural Network
+#### 6. Inverse System Identification Using Neural Network
+#### 7. RBF
+#### 8. Fuzzy Introduction – Heater & Cooler
+#### 9. Fuzzy PID Controller
+  
 
-
+  
+  
+  
+  
 </div>
 
 
